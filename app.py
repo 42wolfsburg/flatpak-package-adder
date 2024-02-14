@@ -37,6 +37,39 @@ def verify_package(package):
 
     return True, "Valid package"
 
+#
+@app.route('/delete_element', methods=['POST'])
+def delete_element():
+    if request.method == 'POST':
+        new_data = request.json
+        json_file_path = 'packages.json'
+
+        # Load existing data
+        if os.path.exists(json_file_path):
+            with open(json_file_path, 'r') as file:
+                data = json.load(file)
+        else:
+            data = []
+
+        
+        package_index = next((i for i, package in enumerate(data["packages"]) if package["package_name"] == new_data["package_name"]), None)
+
+        # Check if a package was found
+        if package_index is not None:
+            # Remove the package from the list
+            del data["packages"][package_index]
+            print(f"Package '{new_data['package_name']}' deleted.")
+        else:
+            print("Package not found.")         
+        
+        # Save the updated data
+        with open(json_file_path, 'w') as file:
+            json.dump(data, file, indent=4)
+        
+        return jsonify({"success": True, "message": "Element deleted successfully"}), 200
+
+        
+
 # API endpoint to add an element to the JSON file
 @app.route('/add_element', methods=['POST'])
 def add_element():
