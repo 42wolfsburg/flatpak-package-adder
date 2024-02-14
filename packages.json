@@ -1,0 +1,184 @@
+{
+    "packages": [
+        {
+            "name": "Android Studio",
+            "package_name": "com.google.AndroidStudio",
+            "category": "Development"
+        },
+        {
+            "name": "Sublime Text",
+            "package_name": "com.sublimetext.three",
+            "category": "Development"
+        },
+        {
+            "name": "VS Codium",
+            "package_name": "com.vscodium.codium",
+            "category": "Development"
+        },
+        {
+            "name": "WebStorm",
+            "package_name": "com.jetbrains.WebStorm",
+            "category": "Development"
+        },
+        {
+            "name": "Neovim",
+            "package_name": "io.neovim.nvim",
+            "category": "Development"
+        },
+        {
+            "name": "Blender",
+            "package_name": "org.blender.Blender",
+            "category": "Graphic tools"
+        },
+        {
+            "name": "Gimp",
+            "package_name": "org.gimp.GIMP",
+            "category": "Graphic tools"
+        },
+        {
+            "name": "VLC",
+            "package_name": "org.videolan.VLC",
+            "category": "Graphic tools"
+        },
+        {
+            "name": "Evolution",
+            "package_name": "org.gnome.Evolution",
+            "category": "Internet"
+        },
+        {
+            "name": "Thunderbird",
+            "package_name": "org.mozilla.Thunderbird",
+            "category": "Internet"
+        },
+        {
+            "name": "WPS Office",
+            "package_name": "com.wps.Office",
+            "category": "Productivity tools"
+        },
+        {
+            "name": "GHex",
+            "package_name": "org.gnome.GHex",
+            "category": "Productivity tools"
+        },
+        {
+            "name": "Flameshot",
+            "package_name": "org.flameshot.Flameshot",
+            "category": "Utilities"
+        },
+        {
+            "name": "Video Downloader",
+            "package_name": "com.github.unrud.VideoDownloader",
+            "category": "Utilities"
+        },
+        {
+            "name": "Zoom Client",
+            "package_name": "us.zoom.Zoom",
+            "category": "Utilities"
+        },
+        {
+            "name": "Remmina",
+            "package_name": "org.remmina.Remmina",
+            "category": "Utilities"
+        },
+        {
+            "name": "KeepassXC",
+            "package_name": "org.keepassxc.KeePassXC",
+            "category": "Utilities"
+        },
+        {
+            "name": "Keysmith",
+            "package_name": "org.kde.keysmith",
+            "category": "Utilities"
+        },
+        {
+            "name": "Signal Desktop",
+            "package_name": "org.signal.Signal",
+            "category": "Social"
+        },
+        {
+            "name": "Skype",
+            "package_name": "com.skype.Client",
+            "category": "Social"
+        },
+        {
+            "name": "Audacity",
+            "package_name": "org.audacityteam.Audacity",
+            "category": "Music"
+        },
+        {
+            "name": "Atom",
+            "package_name": "io.atom.Atom",
+            "category": "Development"
+        },
+        {
+            "name": "GoLand",
+            "package_name": "com.jetbrains.GoLand",
+            "category": "Development"
+        },
+        {
+            "name": "CLion",
+            "package_name": "com.jetbrains.CLion",
+            "category": "Development"
+        },
+        {
+            "name": "IntelliJ IDEA Community",
+            "package_name": "com.jetbrains.IntelliJ-IDEA-Community",
+            "category": "Development"
+        },
+        {
+            "name": "IntelliJ IDEA Ultimate",
+            "package_name": "com.jetbrains.IntelliJ-IDEA-Ultimate",
+            "category": "Development"
+        },
+        {
+            "name": "PyCharm-Professional",
+            "package_name": "com.jetbrains.PyCharm-Professional",
+            "category": "Development"
+        },
+        {
+            "name": "PyCharm-Community",
+            "package_name": "com.jetbrains.PyCharm-Community",
+            "category": "Development"
+        },
+        {
+            "name": "WebStorm",
+            "package_name": "com.jetbrains.WebStorm",
+            "category": "Development"
+        },
+        {
+            "name": "PhpStorm",
+            "package_name": "com.jetbrains.PhpStorm",
+            "category": "Development"
+        },
+        {
+            "name": "Rider",
+            "package_name": "com.jetbrains.Rider",
+            "category": "Development"
+        },
+        {
+            "name": "DataGrip",
+            "package_name": "com.jetbrains.DataGrip",
+            "category": "Development"
+        },
+        {
+            "name": "RubyMine",
+            "package_name": "com.jetbrains.RubyMine",
+            "category": "Development"
+        },
+        {
+            "name": "asdf",
+            "package_name": "adf",
+            "category": "saf"
+        },
+        {
+            "name": "asdf",
+            "package_name": "adf",
+            "category": "saf"
+        },
+        {
+            "name": "asdf",
+            "package_name": "com.google.AndroidStudio",
+            "category": "asdf"
+        }
+    ]
+}
