@@ -36,10 +36,15 @@ function displayJson(data) {
         cell2.innerHTML = item.package_name;
         cell3.innerHTML = item.category;
 
-        // Create a delete button
+        // Add a delete button to the last cell
         let deleteButton = document.createElement('button');
         deleteButton.textContent = 'Delete';
-        deleteButton.setAttribute('onclick', `deleteElement(${index})`); // Set the onclick attribute to call deleteElement function
+        // Wrap the original deleteElement call with a confirmation check
+        deleteButton.addEventListener('click', function() {
+            if (confirm('Are you sure you want to delete this item?\nYou are trying to delete: ' + document.getElementById('jsonTable').getElementsByTagName('tbody')[0].rows[index].cells[0].innerText)) {
+                deleteElement(index); // Call the original function if the user confirms
+            }
+        });
         cell4.appendChild(deleteButton);
     });
 }
