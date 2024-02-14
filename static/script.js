@@ -74,6 +74,7 @@ document.getElementById('submitBtn').addEventListener('click', () => {
             return;
         }
         console.log('Success:', data);
+        alert('Succesfully added element')
         // Reload or update the page content as needed
     })
     .catch((error) => {

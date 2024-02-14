@@ -15,6 +15,9 @@ def index():
 def static_file(path):
     return send_from_directory('.', path)
 
+@app.route('/app.py')
+def no():
+    return "no", 404
 
 def verify_package(package):
     if "name" not in package:
@@ -97,8 +100,10 @@ def add_element():
         # Save the updated data
         with open(json_file_path, 'w') as file:
             json.dump(data, file, indent=4)
-        
+    
+        os.system('systemctl restart ftpkg-catalog.service')
+
         return jsonify({"success": True, "message": "Element added successfully"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
