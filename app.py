@@ -35,7 +35,6 @@ def verify_package(package):
     if resp.status_code != 200:
         return False, "Package not found"
 
-
     return True, "Valid package"
 
 # API endpoint to add an element to the JSON file

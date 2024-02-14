@@ -8,7 +8,16 @@
     <div id="addElementForm" style="display:none;">
         <input type="text" id="name" placeholder="name">
         <input type="text" id="package_name" placeholder="package_name">
-        <input type="text" id="category" placeholder="category">
+        <select id="category">
+            <option value="Development">Development</option>
+            <option value="Music">Music</option>
+            <option value="Social">Social</option>
+            <option value="Utilities">Utilities</option>
+            <option value="Internet">Internet</option>
+            <option value="Graphic tools">Graphic tools</option>
+            <!-- Add more options as needed -->
+        </select>
+
         <button id="submitBtn">Enter</button>
     </div>
 	<div id="jsonContent"></div>
